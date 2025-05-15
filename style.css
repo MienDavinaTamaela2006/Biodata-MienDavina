@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #FFF8E7, #A7C7E7); /* Mengubah latar belakang menjadi biru */
+  color: hwb(287 14% 35% / 0.961);
+}
+
+.biodata-section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.biodata-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.biodata-column {
+  flex: 1;
+  min-width: 250px;
+  text-align: justify;
+}
+
+.timeline {
+  text-align: center;
+}
+
+.timeline h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.school {
+  display: inline-block;
+  background-color: #B4E1E6;
+  color: #FF69B4;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
